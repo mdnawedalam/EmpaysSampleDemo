@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: EmpaysSampleDemo
+  host: EmpaysSampleDemo
+  disk_quota: 1024M
+  services:
+  - EmpaysSampleDemo-personality_insights
+  - Compose for MySQL-yt
+  - ElephantSQL-chDemo
